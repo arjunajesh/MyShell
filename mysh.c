@@ -262,7 +262,6 @@ void executeCommand(JobOrder job){
     }
 }
 
-// LOL at this function name, see if u can come up w/ something better.
 // This assumes that pipeline has 2 jobs: "pipeline[0] | pipeline[1]"
 void executePipedJobs (JobOrder* pipeline) {
     JobOrder job1 = pipeline[0];
